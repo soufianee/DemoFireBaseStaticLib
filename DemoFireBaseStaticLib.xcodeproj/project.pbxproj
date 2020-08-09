@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8CC99A24E030800032AB3C /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC98E24E0307F0032AB3C /* GoogleUtilities.framework */; };
+		8E8CC99B24E030800032AB3C /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC98F24E0307F0032AB3C /* GoogleToolboxForMac.framework */; };
+		8E8CC99C24E030800032AB3C /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99024E0307F0032AB3C /* nanopb.framework */; };
+		8E8CC99D24E030800032AB3C /* FirebaseMLCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99124E0307F0032AB3C /* FirebaseMLCommon.framework */; };
+		8E8CC99E24E030800032AB3C /* FirebaseMLVisionTextModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99224E0307F0032AB3C /* FirebaseMLVisionTextModel.framework */; };
+		8E8CC99F24E030800032AB3C /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99324E0307F0032AB3C /* FirebaseCore.framework */; };
+		8E8CC9A024E030800032AB3C /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99424E0307F0032AB3C /* Protobuf.framework */; };
+		8E8CC9A124E030800032AB3C /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99524E0307F0032AB3C /* GTMSessionFetcher.framework */; };
+		8E8CC9A224E030800032AB3C /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99624E0307F0032AB3C /* PromisesObjC.framework */; };
+		8E8CC9A324E030800032AB3C /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99724E0307F0032AB3C /* GoogleAPIClientForREST.framework */; };
+		8E8CC9A424E030800032AB3C /* FirebaseMLVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99824E0307F0032AB3C /* FirebaseMLVision.framework */; };
+		8E8CC9A524E030800032AB3C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC99924E0307F0032AB3C /* Firebase.framework */; };
+		8E8CC9A724E030B90032AB3C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC9A624E030B90032AB3C /* libc++.tbd */; };
+		8E8CC9A924E030C70032AB3C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC9A824E030C70032AB3C /* libsqlite3.tbd */; };
+		8E8CC9AB24E030D10032AB3C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC9AA24E030D10032AB3C /* CoreMedia.framework */; };
+		8E8CC9AD24E030DD0032AB3C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8CC9AC24E030DD0032AB3C /* Accelerate.framework */; };
+		8E8CC9B524E031C30032AB3C /* FRBConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CC9B224E031C30032AB3C /* FRBConfig.swift */; };
+		8E8CC9B624E031C30032AB3C /* skyOcrEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CC9B324E031C30032AB3C /* skyOcrEngine.swift */; };
+		8E8CC9B724E031C30032AB3C /* SkyTextLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CC9B424E031C30032AB3C /* SkyTextLine.swift */; };
+		8E8CC9B924E0351E0032AB3C /* engineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8CC9B824E0351D0032AB3C /* engineTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E8CC98124E030400032AB3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E8CC98324E030400032AB3C /* libDemoFireBaseStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDemoFireBaseStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8CC98E24E0307F0032AB3C /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = binaries/GoogleUtilities.framework; sourceTree = "<group>"; };
+		8E8CC98F24E0307F0032AB3C /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = binaries/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		8E8CC99024E0307F0032AB3C /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = binaries/nanopb.framework; sourceTree = "<group>"; };
+		8E8CC99124E0307F0032AB3C /* FirebaseMLCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMLCommon.framework; path = binaries/FirebaseMLCommon.framework; sourceTree = "<group>"; };
+		8E8CC99224E0307F0032AB3C /* FirebaseMLVisionTextModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMLVisionTextModel.framework; path = binaries/FirebaseMLVisionTextModel.framework; sourceTree = "<group>"; };
+		8E8CC99324E0307F0032AB3C /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = binaries/FirebaseCore.framework; sourceTree = "<group>"; };
+		8E8CC99424E0307F0032AB3C /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = binaries/Protobuf.framework; sourceTree = "<group>"; };
+		8E8CC99524E0307F0032AB3C /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = binaries/GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		8E8CC99624E0307F0032AB3C /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromisesObjC.framework; path = binaries/PromisesObjC.framework; sourceTree = "<group>"; };
+		8E8CC99724E0307F0032AB3C /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAPIClientForREST.framework; path = binaries/GoogleAPIClientForREST.framework; sourceTree = "<group>"; };
+		8E8CC99824E0307F0032AB3C /* FirebaseMLVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMLVision.framework; path = binaries/FirebaseMLVision.framework; sourceTree = "<group>"; };
+		8E8CC99924E0307F0032AB3C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = binaries/Firebase.framework; sourceTree = "<group>"; };
+		8E8CC9A624E030B90032AB3C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		8E8CC9A824E030C70032AB3C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		8E8CC9AA24E030D10032AB3C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		8E8CC9AC24E030DD0032AB3C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		8E8CC9AF24E031920032AB3C /* GoogleMVTextDetectorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMVTextDetectorResources.bundle; sourceTree = "<group>"; };
+		8E8CC9B024E031920032AB3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E8CC9B124E031C30032AB3C /* DemoFireBaseStaticLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoFireBaseStaticLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E8CC9B224E031C30032AB3C /* FRBConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRBConfig.swift; sourceTree = "<group>"; };
+		8E8CC9B324E031C30032AB3C /* skyOcrEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = skyOcrEngine.swift; sourceTree = "<group>"; };
+		8E8CC9B424E031C30032AB3C /* SkyTextLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyTextLine.swift; sourceTree = "<group>"; };
+		8E8CC9B824E0351D0032AB3C /* engineTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = engineTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8CC98024E030400032AB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8CC9AD24E030DD0032AB3C /* Accelerate.framework in Frameworks */,
+				8E8CC9AB24E030D10032AB3C /* CoreMedia.framework in Frameworks */,
+				8E8CC9A924E030C70032AB3C /* libsqlite3.tbd in Frameworks */,
+				8E8CC9A724E030B90032AB3C /* libc++.tbd in Frameworks */,
+				8E8CC99A24E030800032AB3C /* GoogleUtilities.framework in Frameworks */,
+				8E8CC99B24E030800032AB3C /* GoogleToolboxForMac.framework in Frameworks */,
+				8E8CC99C24E030800032AB3C /* nanopb.framework in Frameworks */,
+				8E8CC99D24E030800032AB3C /* FirebaseMLCommon.framework in Frameworks */,
+				8E8CC99E24E030800032AB3C /* FirebaseMLVisionTextModel.framework in Frameworks */,
+				8E8CC99F24E030800032AB3C /* FirebaseCore.framework in Frameworks */,
+				8E8CC9A024E030800032AB3C /* Protobuf.framework in Frameworks */,
+				8E8CC9A124E030800032AB3C /* GTMSessionFetcher.framework in Frameworks */,
+				8E8CC9A224E030800032AB3C /* PromisesObjC.framework in Frameworks */,
+				8E8CC9A324E030800032AB3C /* GoogleAPIClientForREST.framework in Frameworks */,
+				8E8CC9A424E030800032AB3C /* FirebaseMLVision.framework in Frameworks */,
+				8E8CC9A524E030800032AB3C /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8CC97A24E030400032AB3C = {
+			isa = PBXGroup;
+			children = (
+				8E8CC98524E030400032AB3C /* DemoFireBaseStaticLib */,
+				8E8CC98424E030400032AB3C /* Products */,
+				8E8CC98D24E0307F0032AB3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8CC98424E030400032AB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CC98324E030400032AB3C /* libDemoFireBaseStaticLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E8CC98524E030400032AB3C /* DemoFireBaseStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CC9B824E0351D0032AB3C /* engineTest.swift */,
+				8E8CC9B224E031C30032AB3C /* FRBConfig.swift */,
+				8E8CC9B324E031C30032AB3C /* skyOcrEngine.swift */,
+				8E8CC9B424E031C30032AB3C /* SkyTextLine.swift */,
+				8E8CC9AE24E031540032AB3C /* resources */,
+				8E8CC9B124E031C30032AB3C /* DemoFireBaseStaticLib-Bridging-Header.h */,
+			);
+			path = DemoFireBaseStaticLib;
+			sourceTree = "<group>";
+		};
+		8E8CC98D24E0307F0032AB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CC9AC24E030DD0032AB3C /* Accelerate.framework */,
+				8E8CC9AA24E030D10032AB3C /* CoreMedia.framework */,
+				8E8CC9A824E030C70032AB3C /* libsqlite3.tbd */,
+				8E8CC9A624E030B90032AB3C /* libc++.tbd */,
+				8E8CC99924E0307F0032AB3C /* Firebase.framework */,
+				8E8CC99324E0307F0032AB3C /* FirebaseCore.framework */,
+				8E8CC99124E0307F0032AB3C /* FirebaseMLCommon.framework */,
+				8E8CC99824E0307F0032AB3C /* FirebaseMLVision.framework */,
+				8E8CC99224E0307F0032AB3C /* FirebaseMLVisionTextModel.framework */,
+				8E8CC99724E0307F0032AB3C /* GoogleAPIClientForREST.framework */,
+				8E8CC98F24E0307F0032AB3C /* GoogleToolboxForMac.framework */,
+				8E8CC98E24E0307F0032AB3C /* GoogleUtilities.framework */,
+				8E8CC99524E0307F0032AB3C /* GTMSessionFetcher.framework */,
+				8E8CC99024E0307F0032AB3C /* nanopb.framework */,
+				8E8CC99624E0307F0032AB3C /* PromisesObjC.framework */,
+				8E8CC99424E0307F0032AB3C /* Protobuf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E8CC9AE24E031540032AB3C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E8CC9AF24E031920032AB3C /* GoogleMVTextDetectorResources.bundle */,
+				8E8CC9B024E031920032AB3C /* GoogleService-Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E8CC98224E030400032AB3C /* DemoFireBaseStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8CC98A24E030400032AB3C /* Build configuration list for PBXNativeTarget "DemoFireBaseStaticLib" */;
+			buildPhases = (
+				8E8CC97F24E030400032AB3C /* Sources */,
+				8E8CC98024E030400032AB3C /* Frameworks */,
+				8E8CC98124E030400032AB3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoFireBaseStaticLib;
+			productName = DemoFireBaseStaticLib;
+			productReference = 8E8CC98324E030400032AB3C /* libDemoFireBaseStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8CC97B24E030400032AB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = fuzzyAlpha;
+				TargetAttributes = {
+					8E8CC98224E030400032AB3C = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = 8E8CC97E24E030400032AB3C /* Build configuration list for PBXProject "DemoFireBaseStaticLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E8CC97A24E030400032AB3C;
+			productRefGroup = 8E8CC98424E030400032AB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8CC98224E030400032AB3C /* DemoFireBaseStaticLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8CC97F24E030400032AB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8CC9B624E031C30032AB3C /* skyOcrEngine.swift in Sources */,
+				8E8CC9B924E0351E0032AB3C /* engineTest.swift in Sources */,
+				8E8CC9B724E031C30032AB3C /* SkyTextLine.swift in Sources */,
+				8E8CC9B524E031C30032AB3C /* FRBConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E8CC98824E030400032AB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E8CC98924E030400032AB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E8CC98B24E030400032AB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF6G7WC86G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/binaries",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoFireBaseStaticLib/DemoFireBaseStaticLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E8CC98C24E030400032AB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF6G7WC86G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/binaries",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoFireBaseStaticLib/DemoFireBaseStaticLib-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8CC97E24E030400032AB3C /* Build configuration list for PBXProject "DemoFireBaseStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8CC98824E030400032AB3C /* Debug */,
+				8E8CC98924E030400032AB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8CC98A24E030400032AB3C /* Build configuration list for PBXNativeTarget "DemoFireBaseStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8CC98B24E030400032AB3C /* Debug */,
+				8E8CC98C24E030400032AB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8CC97B24E030400032AB3C /* Project object */;
+}
